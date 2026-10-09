@@ -6,7 +6,6 @@
 
 - Họ tên: Ngô Đức Chung
 - MSSV: 2A202602985
-- Email: (không ghi công khai trên repo public)
 - Link repo (fork): https://github.com/chung170703/K4-L2L3-DAY23-NgoDucChung-2A202602985-SensorFusion
 - Commit hash nộp (`git rev-parse HEAD`): ghi trên LMS (hash của commit cuối, không thể tự nhúng vào chính commit đó)
 
