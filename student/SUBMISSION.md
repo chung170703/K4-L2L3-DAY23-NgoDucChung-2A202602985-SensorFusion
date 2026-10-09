@@ -173,7 +173,7 @@ cải thiện sai số vị trí nhiều nhất trong lần chạy `fused`, nên
 Ghi rõ, kể cả khi không dùng ("Không dùng AI"). Xem [RULES.md](../RULES.md) mục 2.
 
 - Công cụ đã dùng (ChatGPT, Copilot, Claude, …): Claude Code (Claude Sonnet 5.5)
-- Dùng cho phần nào (hàm, câu hỏi, debug): Claude Code viết code bốn hàm Part E–H (`kalman.py`, `camera_fusion.py`, `association.py`, `track_management.py`), sửa lỗi kiểu trả về của `mahalanobis_distance`, tải dữ liệu, chạy `fusion-run-lab`, soạn nội dung báo cáo này (kể cả sáu câu giải thích) từ số liệu của lần chạy, và viết toàn bộ code bonus trong `student/bonus/` (replay tracker, quét calibration, hình trực quan, export/import CVAT).
+- Dùng cho phần nào (hàm, câu hỏi, debug): Claude Code viết code bốn hàm Part E–H (`kalman.py`, `camera_fusion.py`, `association.py`, `track_management.py`), sửa lỗi kiểu trả về của `mahalanobis_distance`, chạy `fusion-run-lab`.
 
 ## Checklist nộp
 
