@@ -93,7 +93,61 @@ File per-mode `metrics_lidar.json`, `metrics_fused.json`, `grade_run_lidar.log`,
 Liệt kê phần bonus đã làm, file bằng chứng trong `student/bonus/` và kết quả chính
 (xem [RUBRIC.md](../RUBRIC.md) mục 2). Không làm thì ghi "Không".
 
-- Không
+Đã làm 2 trong 3 mục bonus (phân tích calibration và trực quan hoá). **Không làm** mục export CVAT:
+chưa import vào CVAT và chưa có ảnh chụp CVAT, nên không khai bonus đó. Bằng chứng nằm trong `student/bonus/`;
+các kịch bản chỉ chạy lại tracker của chính lab trên kết quả detector đã cache, **không** sửa platform hay Part A–D,
+và `student/artifacts/` vẫn là lần chạy chấm điểm gốc (`compare --seed 0`, frame 0–198). Replay ở mức 0° tái tạo đúng
+metrics gốc (lidar 0.1503 m / 502 matches, fused 0.1359 m / 502 matches), nên các kịch bản so sánh được với bài nộp.
+
+### Bonus 1 — Phân tích calibration (mục 2, +4)
+
+- Code: `student/bonus/cache_frames.py` (cache detector, GT, pixel camera seed 0), `replay.py` (chạy lại tracker, xoay extrinsic
+  camera của *tracker*), `calibration.py` (quét và vẽ). Số liệu: `calibration_sweep.json`; hình: `calibration_sweep.png`.
+- Cách làm: pixel đo vẫn là tâm hộp 2D GT FRONT cộng nhiễu seed 0 (như lab), còn extrinsic camera mà EKF dùng
+  bị xoay quanh trục lên (yaw) hoặc trục trái (pitch) 0.25°, 0.5°, 1°, 2°, 5° (6 mức kể cả 0°, hai trục).
+  Với mỗi mức, lấy 585 cặp (track, đo camera) mà camera chuẩn (0°) chấp nhận qua cổng χ² (ngưỡng 10.60, 2 bậc tự do,
+  p = 0.995) rồi theo dõi chính các cặp đó khi lệch.
+
+| Trục | Lệch | RMSE fused (m) | − RMSE lidar (m) | Số update camera | Cặp còn trong cổng | Dịch innovation γ (u / v, px) |
+|---|---|---|---|---|---|---|
+| yaw | 0° | 0.1359 | −0.0145 | 509 | 100.0 % | +0.0 / +0.0 |
+| yaw | 0.25° | 0.1732 | +0.0229 | 486 | 95.6 % | −7.7 / +0.0 |
+| yaw | 0.5° | 0.2112 | +0.0608 | 322 | 65.8 % | −33.0 / −9.2 |
+| yaw | 1° | 0.1726 | +0.0222 | 20 | 12.8 % | −68.1 / −14.6 |
+| yaw | 2° | 0.1760 | +0.0257 | 19 | 10.4 % | −103.8 / −14.3 |
+| yaw | 5° | 0.1503 | 0.0000 | 28 | 5.6 % | −210.2 / −14.8 |
+| pitch | 0.25° | 0.1750 | +0.0247 | 503 | 99.0 % | −0.0 / +7.5 |
+| pitch | 0.5° | 0.2233 | +0.0730 | 370 | 76.1 % | −0.2 / +15.4 |
+| pitch | 1° | 0.1876 | +0.0372 | 87 | 15.4 % | −0.3 / +31.5 |
+| pitch | 2° | 0.2319 | +0.0815 | 241 | 14.7 % | −0.8 / +63.0 |
+| pitch | 5° | 0.1503 | +0.0000 | 8 | 10.9 % | −0.3 / +158.5 |
+
+(RMSE lidar-only = 0.1503 m; ở mọi mức, matches = 502, ghost = 0, miss = 239 như bài nộp.)
+
+- **Triệu chứng trên innovation:** lệch extrinsic làm dịch có hệ thống trung bình của γ = z − h(x), không phải nhiễu trắng.
+  Yaw chủ yếu dịch thành phần u (≈ −31 px/độ ở 0.25°, ≈ −42 px/độ ở 5°), pitch chủ yếu dịch thành phần v (≈ +31 px/độ ở mọi mức);
+  do chỉ xét các cặp còn lại trong vùng nhìn thấy nên giá trị lớn chỉ mang tính chỉ báo. Hệ quả là d² = γᵀS⁻¹γ tăng (trung vị d² của các cặp đó từ 1.7 ở 0° lên 8.7 ở yaw 0.5°, 22.8 ở 1°, 391.6 ở 5°).
+- **Vì sao gating chặn hoặc không chặn:** σ = 5 px nên cổng χ² rộng chỉ cỡ 20–30 px. Lệch ≥ 1° đẩy hầu hết cặp ra ngoài cổng
+  (còn 5–15 % cặp), nên update camera giảm mạnh từ 509 (yaw ≥ 1° chỉ còn 19–28, pitch 5° còn 8) và ở 5° fused quay về đúng lidar-only (0.1503 m).
+  Lệch 0.25–0.5° nhỏ hơn bề rộng cổng nên phần lớn cặp vẫn lọt (95.6 % / 65.8 % ở yaw) trong khi đo đã bị lệch vài chục pixel:
+  các update này kéo state lệch và đẩy RMSE lên (0.173 → 0.211 m ở yaw, 0.175 → 0.223 m ở pitch). Đây là vùng nguy hiểm nhất:
+  gating không chặn được lỗi nhỏ nhưng hệ thống, và RMSE không đơn điệu theo độ lệch (yaw 1° tốt hơn 0.5° khi số update lọt cổng giảm từ 322 xuống 20).
+- **Hệ quả với rubric:** RMSE vẫn dưới 0.45 m ở mọi mức, nhưng điều kiện nhất quán `rmse_fused − rmse_lidar ≤ 0.05 m` bị vi phạm
+  ở yaw 0.5° (+0.061 m), pitch 0.5° (+0.073 m) và pitch 2° (+0.082 m). Hạn chế: một segment, một seed; pixel camera là GT có nhiễu
+  nên không phản ánh lỗi của detector ảnh; "cặp còn trong cổng" được tính trên các cặp của lần chạy 0°, còn bản thân quỹ đạo track
+  thay đổi theo từng mức lệch (phản hồi từ các update).
+
+### Bonus 2 — Trực quan hoá BEV và ảnh camera (mục 2, +3)
+
+Code `student/bonus/visualize.py`. Ba ảnh có chú thích (frame và track được chọn tự động là cặp có camera update
+cải thiện sai số vị trí nhiều nhất trong lần chạy `fused`, nên là ví dụ tốt nhất chứ không phải ví dụ điển hình):
+
+1. `viz_bev_camera_update.png` — BEV frame 150, track 10: sai số 3D so với GT giảm từ 0.221 m (sau update LiDAR) xuống 0.014 m
+   (sau update camera); thấy cả đo LiDAR, tâm GT và hai vị trí track.
+2. `viz_front_camera_update.png` — cùng frame trên ảnh FRONT: residual pixel giữa đo camera và h(x) giảm từ 23.7 px xuống 6.5 px
+   sau update camera.
+3. `viz_per_frame_rmse.png` — RMSE theo frame của lidar-only (0.150 m) và fused (0.136 m). Camera không tốt hơn ở mọi frame
+   (ví dụ frame khoảng 5–25 fused cao hơn lidar-only), cải thiện tập trung ở khoảng frame 70–150.
 
 
 ## Khai báo sử dụng AI (bắt buộc)
