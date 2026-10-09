@@ -173,8 +173,7 @@ cải thiện sai số vị trí nhiều nhất trong lần chạy `fused`, nên
 Ghi rõ, kể cả khi không dùng ("Không dùng AI"). Xem [RULES.md](../RULES.md) mục 2.
 
 - Công cụ đã dùng (ChatGPT, Copilot, Claude, …): Claude Code (Claude Sonnet 5.5)
-- Dùng cho phần nào (hàm, câu hỏi, debug): Claude Code viết code bốn hàm Part E–H (`kalman.py`, `camera_fusion.py`, `association.py`, `track_management.py`), sửa lỗi kiểu trả về của `mahalanobis_distance`, tải dữ liệu, chạy `fusion-run-lab`, soạn nội dung báo cáo này (kể cả sáu câu giải thích) từ số liệu của lần chạy, và viết toàn bộ code bonus trong `student/bonus/` (replay tracker, quét calibration, hình trực quan, export/import CVAT). Phần việc trên trình duyệt (tạo và xóa task CVAT) cũng do Claude thực hiện theo yêu cầu của tôi.
-- Cách bạn đã kiểm tra lại (pytest, chạy Waymo, đối chiếu công thức): `pytest student/tests -q` (128 passed, 0 failed/xfailed); chạy `fusion-run-lab --fusion compare --seed 0` trên frame 0–198; kiểm tra `matches+ghosts==confirmed` và `matches+misses==valid_gt` trên 199 record mỗi mode; `python tools/check_submission.py`.
+- Dùng cho phần nào (hàm, câu hỏi, debug): Claude Code viết code bốn hàm Part E–H (`kalman.py`, `camera_fusion.py`, `association.py`, `track_management.py`), sửa lỗi kiểu trả về của `mahalanobis_distance`, tải dữ liệu, chạy `fusion-run-lab`, soạn nội dung báo cáo này (kể cả sáu câu giải thích) từ số liệu của lần chạy, và viết toàn bộ code bonus trong `student/bonus/` (replay tracker, quét calibration, hình trực quan, export/import CVAT).
 
 ## Checklist nộp
 
