@@ -69,7 +69,8 @@ class CountingFilter(Filter):
 
 def _snapshot(manager: TrackManager) -> list[dict[str, Any]]:
     return [{"id": t.id, "state": t.state, "score": t.score,
-             "x": np.asarray(t.x).ravel().copy(), "P": np.asarray(t.P).copy()}
+             "x": np.asarray(t.x).ravel().copy(), "P": np.asarray(t.P).copy(),
+             "height": t.height, "width": t.width, "length": t.length, "yaw": t.yaw}
             for t in manager.track_list]
 
 

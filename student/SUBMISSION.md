@@ -93,8 +93,7 @@ File per-mode `metrics_lidar.json`, `metrics_fused.json`, `grade_run_lidar.log`,
 Liệt kê phần bonus đã làm, file bằng chứng trong `student/bonus/` và kết quả chính
 (xem [RUBRIC.md](../RUBRIC.md) mục 2). Không làm thì ghi "Không".
 
-Đã làm 2 trong 3 mục bonus (phân tích calibration và trực quan hoá). **Không làm** mục export CVAT:
-chưa import vào CVAT và chưa có ảnh chụp CVAT, nên không khai bonus đó. Bằng chứng nằm trong `student/bonus/`;
+Đã làm cả 3 mục bonus (export CVAT, trực quan hoá, phân tích calibration). Bằng chứng nằm trong `student/bonus/`;
 các kịch bản chỉ chạy lại tracker của chính lab trên kết quả detector đã cache, **không** sửa platform hay Part A–D,
 và `student/artifacts/` vẫn là lần chạy chấm điểm gốc (`compare --seed 0`, frame 0–198). Replay ở mức 0° tái tạo đúng
 metrics gốc (lidar 0.1503 m / 502 matches, fused 0.1359 m / 502 matches), nên các kịch bản so sánh được với bài nộp.
@@ -136,6 +135,25 @@ metrics gốc (lidar 0.1503 m / 502 matches, fused 0.1359 m / 502 matches), nên
   ở yaw 0.5° (+0.061 m), pitch 0.5° (+0.073 m) và pitch 2° (+0.082 m). Hạn chế: một segment, một seed; pixel camera là GT có nhiễu
   nên không phản ánh lỗi của detector ảnh; "cặp còn trong cổng" được tính trên các cặp của lần chạy 0°, còn bản thân quỹ đạo track
   thay đổi theo từng mức lệch (phản hồi từ các update).
+
+### Bonus 3 — Export track sang CVAT và kiểm tra trực quan (mục 2, +3)
+
+- Code `student/bonus/cvat_export.py` (dùng `fusion_lab.export_cvat.export_tracks_json`), chạy lại tracker `fused`, seed 0, trên
+  frame 40–70 (31 frame). Đầu ra: `cvat_tracks.json` (trạng thái từng track mỗi frame: id, `state`, vị trí/vận tốc trong hệ xe,
+  kích thước, yaw, hộp 2D chiếu lên ảnh FRONT) và `cvat_annotations.xml` ("CVAT 1.1", rectangle track, thuộc tính `track_id`, `state`).
+  Hộp 2D là bao ngoài của 8 đỉnh hộp 3D của track được chiếu bằng mô hình camera của lab (Part G).
+- Đã tạo task CVAT trên app.cvat.ai (task #2657002, 31 ảnh FRONT, nhãn `vehicle_track`) và import `cvat_annotations.xml` bằng định dạng
+  CVAT 1.1; import thành công, mở job thấy các track đúng vị trí xe. Ảnh chụp: `cvat_ghost_track6_frame46.jpg`.
+  Ảnh Waymo không được commit (chỉ nằm trong `.cache/` local).
+- **Ghost trên ảnh:** ở frame 46 (CVAT frame 6) hộp `track_id: 6`, `state: tentative` nằm trên dải bụi cây ven đường, không có xe
+  (Waymo GT ở frame này chỉ có 3 xe, không xe nào ở đó). Track 6 sinh ra ở frame 44 từ một detection LiDAR không ứng với xe nào, tồn tại 6 frame
+  (44–49) và bị xóa trước khi đủ điểm xác nhận. Vì chưa bao giờ `confirmed` nên không được tính vào `ghost_track_frames`
+  (= 0 trong lần chạy chấm điểm), đúng thiết kế lifecycle (xác nhận khi score > 0.8): đây là ghost bị bộ lọc vòng đời chặn,
+  khác với ghost lọt qua và bị tính. Cùng đoạn này còn có track 7 (frame 60–64) cũng không được xác nhận; hai track 0 và 1 liên tục
+  `confirmed` suốt 31 frame.
+- **Đổi ID:** kiểm tra gán track–GT trên toàn 199 frame (gate 2 m, theo track `confirmed`) cho thấy không xe GT nào đổi track ID;
+  xe `VJ3F-…` được giữ bởi track 5 trong frame 48–58 (confirmed) rồi mất track trong khi GT còn tới frame 69, và xe `8EFR…` chỉ được
+  track 10 nhận từ frame 98 (confirmed) dù GT có từ frame 67. Đây là miss (mất track), không phải đổi ID.
 
 ### Bonus 2 — Trực quan hoá BEV và ảnh camera (mục 2, +3)
 

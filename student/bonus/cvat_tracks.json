@@ -1,0 +1,2724 @@
+{
+  "frames": [
+    {
+      "frame": 40,
+      "cvat_frame_index": 0,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.651,
+            3.829,
+            0.788
+          ],
+          "velocity_vehicle_mps": [
+            -0.252,
+            0.093,
+            0.066
+          ],
+          "size_hwl_m": [
+            1.663,
+            1.705,
+            3.958
+          ],
+          "yaw_rad": -0.0164,
+          "front_box_xyxy_px": [
+            274.4721657179697,
+            723.1647056063568,
+            632.3190587939152,
+            985.7733057027208
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            30.272,
+            0.699,
+            1.065
+          ],
+          "velocity_vehicle_mps": [
+            -0.97,
+            0.211,
+            0.096
+          ],
+          "size_hwl_m": [
+            1.743,
+            1.702,
+            3.948
+          ],
+          "yaw_rad": -0.0221,
+          "front_box_xyxy_px": [
+            847.2231369738129,
+            682.6242189308095,
+            986.1415466281306,
+            821.5079730000576
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 41,
+      "cvat_frame_index": 1,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.684,
+            3.841,
+            0.751
+          ],
+          "velocity_vehicle_mps": [
+            -0.196,
+            0.095,
+            0.025
+          ],
+          "size_hwl_m": [
+            1.657,
+            1.704,
+            3.964
+          ],
+          "yaw_rad": -0.0092,
+          "front_box_xyxy_px": [
+            275.9871817944943,
+            727.6222780344269,
+            630.0315648530407,
+            989.9403596464438
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            30.132,
+            0.727,
+            1.061
+          ],
+          "velocity_vehicle_mps": [
+            -1.012,
+            0.217,
+            0.083
+          ],
+          "size_hwl_m": [
+            1.742,
+            1.699,
+            3.947
+          ],
+          "yaw_rad": -0.019,
+          "front_box_xyxy_px": [
+            845.0060482686366,
+            682.9906153620358,
+            983.7478876830708,
+            822.5085831942012
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 42,
+      "cvat_frame_index": 2,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.685,
+            3.844,
+            0.711
+          ],
+          "velocity_vehicle_mps": [
+            -0.177,
+            0.089,
+            -0.015
+          ],
+          "size_hwl_m": [
+            1.653,
+            1.7,
+            3.96
+          ],
+          "yaw_rad": -0.012,
+          "front_box_xyxy_px": [
+            275.2387961545437,
+            732.4030645727139,
+            629.9714476667234,
+            995.4266750284075
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            30.037,
+            0.704,
+            0.941
+          ],
+          "velocity_vehicle_mps": [
+            -1.006,
+            0.174,
+            -0.039
+          ],
+          "size_hwl_m": [
+            1.732,
+            1.696,
+            3.947
+          ],
+          "yaw_rad": 0.0073,
+          "front_box_xyxy_px": [
+            850.3281274735315,
+            691.5605175479258,
+            984.949354344004,
+            832.0909554025727
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 43,
+      "cvat_frame_index": 3,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.69,
+            3.852,
+            0.712
+          ],
+          "velocity_vehicle_mps": [
+            -0.156,
+            0.089,
+            -0.013
+          ],
+          "size_hwl_m": [
+            1.654,
+            1.698,
+            3.956
+          ],
+          "yaw_rad": -0.0175,
+          "front_box_xyxy_px": [
+            273.1896953601944,
+            732.163857251928,
+            630.0439059593848,
+            995.2452180536958
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.957,
+            0.732,
+            0.945
+          ],
+          "velocity_vehicle_mps": [
+            -0.986,
+            0.184,
+            -0.031
+          ],
+          "size_hwl_m": [
+            1.725,
+            1.694,
+            3.949
+          ],
+          "yaw_rad": -0.0398,
+          "front_box_xyxy_px": [
+            840.7448024844397,
+            691.5760936984034,
+            986.0358604744325,
+            832.0682977831376
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 44,
+      "cvat_frame_index": 4,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.73,
+            3.896,
+            0.752
+          ],
+          "velocity_vehicle_mps": [
+            -0.103,
+            0.122,
+            0.026
+          ],
+          "size_hwl_m": [
+            1.656,
+            1.695,
+            3.96
+          ],
+          "yaw_rad": -0.0104,
+          "front_box_xyxy_px": [
+            270.59546392778,
+            727.3417105780948,
+            624.2240433767988,
+            988.4418215055309
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.774,
+            0.72,
+            0.973
+          ],
+          "velocity_vehicle_mps": [
+            -1.066,
+            0.156,
+            -0.002
+          ],
+          "size_hwl_m": [
+            1.715,
+            1.691,
+            3.929
+          ],
+          "yaw_rad": -0.0553,
+          "front_box_xyxy_px": [
+            838.668407320691,
+            690.1503097276587,
+            988.8474117980894,
+            830.5888668989415
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "initialized",
+          "score": 0.1667,
+          "position_vehicle_m": [
+            49.845,
+            4.088,
+            1.038
+          ],
+          "velocity_vehicle_mps": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size_hwl_m": [
+            1.628,
+            1.643,
+            4.191
+          ],
+          "yaw_rad": 0.1147,
+          "front_box_xyxy_px": [
+            759.8194302439852,
+            680.2758963658761,
+            837.0604962211838,
+            755.193451510154
+          ]
+        },
+        {
+          "track_id": 6,
+          "state": "initialized",
+          "score": 0.1667,
+          "position_vehicle_m": [
+            38.03,
+            -3.072,
+            1.162
+          ],
+          "velocity_vehicle_mps": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size_hwl_m": [
+            1.51,
+            1.524,
+            3.746
+          ],
+          "yaw_rad": -0.038,
+          "front_box_xyxy_px": [
+            1101.7359852291909,
+            683.5779733637377,
+            1199.8667516620226,
+            776.8652757051563
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 45,
+      "cvat_frame_index": 5,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.748,
+            3.896,
+            0.719
+          ],
+          "velocity_vehicle_mps": [
+            -0.076,
+            0.11,
+            -0.008
+          ],
+          "size_hwl_m": [
+            1.663,
+            1.691,
+            3.958
+          ],
+          "yaw_rad": -0.0086,
+          "front_box_xyxy_px": [
+            272.23531422102815,
+            730.6613425925126,
+            623.9661095061263,
+            993.3950072473338
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.758,
+            0.699,
+            0.96
+          ],
+          "velocity_vehicle_mps": [
+            -0.98,
+            0.121,
+            -0.014
+          ],
+          "size_hwl_m": [
+            1.717,
+            1.691,
+            3.932
+          ],
+          "yaw_rad": -0.0119,
+          "front_box_xyxy_px": [
+            846.7381635359111,
+            690.9371230591556,
+            984.4953959363025,
+            831.6656038030624
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "tentative",
+          "score": 0.3333,
+          "position_vehicle_m": [
+            49.836,
+            4.054,
+            0.999
+          ],
+          "velocity_vehicle_mps": [
+            -0.093,
+            -0.337,
+            -0.179
+          ],
+          "size_hwl_m": [
+            1.635,
+            1.648,
+            4.188
+          ],
+          "yaw_rad": 0.0889,
+          "front_box_xyxy_px": [
+            760.9856337957302,
+            681.7968086979236,
+            836.2728995297584,
+            757.2149381925359
+          ]
+        },
+        {
+          "track_id": 6,
+          "state": "tentative",
+          "score": 0.3333,
+          "position_vehicle_m": [
+            36.25,
+            -3.183,
+            1.126
+          ],
+          "velocity_vehicle_mps": [
+            -17.58,
+            -1.104,
+            -0.162
+          ],
+          "size_hwl_m": [
+            1.513,
+            1.522,
+            3.766
+          ],
+          "yaw_rad": -0.0113,
+          "front_box_xyxy_px": [
+            1111.48313900836,
+            686.2008026890345,
+            1222.2887121283243,
+            785.0601675952979
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 46,
+      "cvat_frame_index": 6,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.787,
+            3.92,
+            0.69
+          ],
+          "velocity_vehicle_mps": [
+            -0.031,
+            0.122,
+            -0.035
+          ],
+          "size_hwl_m": [
+            1.665,
+            1.69,
+            3.956
+          ],
+          "yaw_rad": -0.0104,
+          "front_box_xyxy_px": [
+            270.33852187842376,
+            733.7225820402098,
+            622.2711000934258,
+            996.8301007829832
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.623,
+            0.708,
+            0.915
+          ],
+          "velocity_vehicle_mps": [
+            -1.015,
+            0.118,
+            -0.056
+          ],
+          "size_hwl_m": [
+            1.718,
+            1.69,
+            3.927
+          ],
+          "yaw_rad": -0.0468,
+          "front_box_xyxy_px": [
+            840.0788617242126,
+            694.1628397189418,
+            988.5408949910011,
+            836.261247898427
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "tentative",
+          "score": 0.5,
+          "position_vehicle_m": [
+            49.787,
+            4.086,
+            0.923
+          ],
+          "velocity_vehicle_mps": [
+            -0.291,
+            -0.006,
+            -0.363
+          ],
+          "size_hwl_m": [
+            1.638,
+            1.65,
+            4.171
+          ],
+          "yaw_rad": 0.1208,
+          "front_box_xyxy_px": [
+            758.9299946285641,
+            684.8634895991897,
+            837.6377824415174,
+            760.7062193914844
+          ]
+        },
+        {
+          "track_id": 6,
+          "state": "tentative",
+          "score": 0.5,
+          "position_vehicle_m": [
+            34.442,
+            -3.194,
+            1.027
+          ],
+          "velocity_vehicle_mps": [
+            -17.833,
+            -0.596,
+            -0.427
+          ],
+          "size_hwl_m": [
+            1.514,
+            1.521,
+            3.766
+          ],
+          "yaw_rad": -0.029,
+          "front_box_xyxy_px": [
+            1121.1629309309926,
+            692.8881316001274,
+            1235.1710062425407,
+            798.4267105087274
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 47,
+      "cvat_frame_index": 7,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.829,
+            3.95,
+            0.768
+          ],
+          "velocity_vehicle_mps": [
+            0.011,
+            0.139,
+            0.043
+          ],
+          "size_hwl_m": [
+            1.663,
+            1.689,
+            3.962
+          ],
+          "yaw_rad": -0.0138,
+          "front_box_xyxy_px": [
+            267.28751296894575,
+            724.7679523729946,
+            620.4335909524672,
+            984.4030035561515
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.505,
+            0.754,
+            0.983
+          ],
+          "velocity_vehicle_mps": [
+            -1.031,
+            0.151,
+            0.015
+          ],
+          "size_hwl_m": [
+            1.718,
+            1.691,
+            3.914
+          ],
+          "yaw_rad": -0.0055,
+          "front_box_xyxy_px": [
+            842.0950829906037,
+            689.4373192899046,
+            979.8764979719202,
+            831.2434804820793
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "tentative",
+          "score": 0.6667,
+          "position_vehicle_m": [
+            49.644,
+            4.119,
+            1.077
+          ],
+          "velocity_vehicle_mps": [
+            -0.678,
+            0.106,
+            0.109
+          ],
+          "size_hwl_m": [
+            1.635,
+            1.651,
+            4.169
+          ],
+          "yaw_rad": 0.0532,
+          "front_box_xyxy_px": [
+            753.8059145221973,
+            678.5615547524518,
+            832.3487812062392,
+            753.9820312808432
+          ]
+        },
+        {
+          "track_id": 6,
+          "state": "tentative",
+          "score": 0.3333,
+          "position_vehicle_m": [
+            32.659,
+            -3.253,
+            0.984
+          ],
+          "velocity_vehicle_mps": [
+            -17.833,
+            -0.596,
+            -0.427
+          ],
+          "size_hwl_m": [
+            1.514,
+            1.521,
+            3.766
+          ],
+          "yaw_rad": -0.029,
+          "front_box_xyxy_px": [
+            1132.8321849560602,
+            696.7780499266613,
+            1255.3352186645598,
+            809.2864212342897
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 48,
+      "cvat_frame_index": 8,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.911,
+            3.985,
+            0.813
+          ],
+          "velocity_vehicle_mps": [
+            0.088,
+            0.16,
+            0.081
+          ],
+          "size_hwl_m": [
+            1.667,
+            1.688,
+            3.972
+          ],
+          "yaw_rad": -0.0136,
+          "front_box_xyxy_px": [
+            266.204534074957,
+            719.1949701037157,
+            618.0483661253875,
+            976.4810994507699
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.425,
+            0.755,
+            1.064
+          ],
+          "velocity_vehicle_mps": [
+            -1.009,
+            0.137,
+            0.091
+          ],
+          "size_hwl_m": [
+            1.721,
+            1.693,
+            3.911
+          ],
+          "yaw_rad": -0.0112,
+          "front_box_xyxy_px": [
+            840.7393162054725,
+            683.7109271175774,
+            980.7186211536048,
+            825.3813878770911
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 0.8333,
+          "position_vehicle_m": [
+            49.636,
+            4.125,
+            1.205
+          ],
+          "velocity_vehicle_mps": [
+            -0.524,
+            0.095,
+            0.347
+          ],
+          "size_hwl_m": [
+            1.637,
+            1.655,
+            4.165
+          ],
+          "yaw_rad": 0.0754,
+          "front_box_xyxy_px": [
+            755.5348271580061,
+            673.2276086496344,
+            831.4487141618126,
+            748.2725736208688
+          ]
+        },
+        {
+          "track_id": 6,
+          "state": "tentative",
+          "score": 0.1667,
+          "position_vehicle_m": [
+            31.272,
+            -0.041,
+            1.549
+          ],
+          "velocity_vehicle_mps": [
+            -16.817,
+            7.779,
+            0.795
+          ],
+          "size_hwl_m": [
+            1.514,
+            1.521,
+            3.766
+          ],
+          "yaw_rad": -0.029,
+          "front_box_xyxy_px": [
+            914.0095998367285,
+            656.6984289460424,
+            1029.6542336353864,
+            771.2437770935251
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 49,
+      "cvat_frame_index": 9,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.899,
+            4.001,
+            0.762
+          ],
+          "velocity_vehicle_mps": [
+            0.068,
+            0.159,
+            0.026
+          ],
+          "size_hwl_m": [
+            1.666,
+            1.685,
+            3.968
+          ],
+          "yaw_rad": -0.0147,
+          "front_box_xyxy_px": [
+            263.3090692058396,
+            725.0050194055634,
+            615.9693696432153,
+            983.9578407809968
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.289,
+            0.746,
+            1.033
+          ],
+          "velocity_vehicle_mps": [
+            -1.042,
+            0.115,
+            0.052
+          ],
+          "size_hwl_m": [
+            1.717,
+            1.692,
+            3.897
+          ],
+          "yaw_rad": -0.0325,
+          "front_box_xyxy_px": [
+            837.6498475995651,
+            686.1651963670304,
+            984.2364613273035,
+            828.6004872837626
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            49.804,
+            4.113,
+            1.117
+          ],
+          "velocity_vehicle_mps": [
+            -0.056,
+            0.049,
+            0.131
+          ],
+          "size_hwl_m": [
+            1.642,
+            1.662,
+            4.159
+          ],
+          "yaw_rad": 0.045,
+          "front_box_xyxy_px": [
+            753.8760665808758,
+            676.7811705366563,
+            833.9666926771451,
+            752.0704634675137
+          ]
+        },
+        {
+          "track_id": 6,
+          "state": "tentative",
+          "score": 0.0,
+          "position_vehicle_m": [
+            29.431,
+            0.916,
+            2.097
+          ],
+          "velocity_vehicle_mps": [
+            -17.142,
+            8.158,
+            1.624
+          ],
+          "size_hwl_m": [
+            1.514,
+            1.521,
+            3.766
+          ],
+          "yaw_rad": -0.029,
+          "front_box_xyxy_px": [
+            833.5997882694321,
+            611.0433767331629,
+            966.4071541194269,
+            733.5229006299996
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 50,
+      "cvat_frame_index": 10,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.943,
+            4.02,
+            0.692
+          ],
+          "velocity_vehicle_mps": [
+            0.104,
+            0.162,
+            -0.043
+          ],
+          "size_hwl_m": [
+            1.662,
+            1.682,
+            3.962
+          ],
+          "yaw_rad": -0.0138,
+          "front_box_xyxy_px": [
+            263.22207557688796,
+            733.0095753628658,
+            614.2566708418078,
+            992.7098398873335
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.207,
+            0.706,
+            0.968
+          ],
+          "velocity_vehicle_mps": [
+            -1.021,
+            0.066,
+            -0.015
+          ],
+          "size_hwl_m": [
+            1.723,
+            1.694,
+            3.892
+          ],
+          "yaw_rad": -0.0085,
+          "front_box_xyxy_px": [
+            843.9360034129239,
+            690.5822014435169,
+            983.8289717706745,
+            834.5733433043781
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 0.8333,
+          "position_vehicle_m": [
+            49.791,
+            4.159,
+            0.96
+          ],
+          "velocity_vehicle_mps": [
+            -0.069,
+            0.125,
+            -0.137
+          ],
+          "size_hwl_m": [
+            1.642,
+            1.662,
+            4.159
+          ],
+          "yaw_rad": 0.045,
+          "front_box_xyxy_px": [
+            751.6341561087418,
+            683.253512344991,
+            831.9353092280295,
+            759.1413449927481
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 51,
+      "cvat_frame_index": 11,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            17.992,
+            4.064,
+            0.7
+          ],
+          "velocity_vehicle_mps": [
+            0.14,
+            0.188,
+            -0.032
+          ],
+          "size_hwl_m": [
+            1.656,
+            1.681,
+            3.963
+          ],
+          "yaw_rad": -0.0124,
+          "front_box_xyxy_px": [
+            259.7630282168144,
+            732.2699295507753,
+            609.9284160886805,
+            990.1036718847481
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.151,
+            0.716,
+            0.96
+          ],
+          "velocity_vehicle_mps": [
+            -0.978,
+            0.069,
+            -0.021
+          ],
+          "size_hwl_m": [
+            1.727,
+            1.695,
+            3.905
+          ],
+          "yaw_rad": -0.0664,
+          "front_box_xyxy_px": [
+            834.0420713779818,
+            691.0550798372011,
+            991.057185126263,
+            835.9630045227663
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            49.589,
+            4.094,
+            1.0
+          ],
+          "velocity_vehicle_mps": [
+            -0.375,
+            0.0,
+            -0.06
+          ],
+          "size_hwl_m": [
+            1.647,
+            1.659,
+            4.154
+          ],
+          "yaw_rad": 0.0327,
+          "front_box_xyxy_px": [
+            752.5889941673804,
+            681.5512331582263,
+            835.0926411926212,
+            757.8686271899038
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 52,
+      "cvat_frame_index": 12,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.019,
+            4.106,
+            0.719
+          ],
+          "velocity_vehicle_mps": [
+            0.152,
+            0.21,
+            -0.011
+          ],
+          "size_hwl_m": [
+            1.649,
+            1.68,
+            3.97
+          ],
+          "yaw_rad": -0.0109,
+          "front_box_xyxy_px": [
+            255.2958209279485,
+            730.4374438794378,
+            605.4464544806266,
+            986.2326746305878
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            29.051,
+            0.743,
+            0.993
+          ],
+          "velocity_vehicle_mps": [
+            -0.98,
+            0.089,
+            0.013
+          ],
+          "size_hwl_m": [
+            1.73,
+            1.695,
+            3.92
+          ],
+          "yaw_rad": -0.0516,
+          "front_box_xyxy_px": [
+            833.4297409841789,
+            688.647189809629,
+            987.2357913038062,
+            833.9947265045662
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            49.544,
+            4.158,
+            1.057
+          ],
+          "velocity_vehicle_mps": [
+            -0.386,
+            0.093,
+            0.023
+          ],
+          "size_hwl_m": [
+            1.649,
+            1.661,
+            4.141
+          ],
+          "yaw_rad": 0.12,
+          "front_box_xyxy_px": [
+            754.8225025552778,
+            679.0902161217884,
+            833.8699156517654,
+            755.3284139610519
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 53,
+      "cvat_frame_index": 13,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.075,
+            4.118,
+            0.769
+          ],
+          "velocity_vehicle_mps": [
+            0.191,
+            0.202,
+            0.038
+          ],
+          "size_hwl_m": [
+            1.642,
+            1.68,
+            3.973
+          ],
+          "yaw_rad": -0.031,
+          "front_box_xyxy_px": [
+            251.68496222766578,
+            724.887433244491,
+            609.4069761785979,
+            977.5455769945647
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.859,
+            0.751,
+            1.043
+          ],
+          "velocity_vehicle_mps": [
+            -1.069,
+            0.088,
+            0.059
+          ],
+          "size_hwl_m": [
+            1.728,
+            1.692,
+            3.913
+          ],
+          "yaw_rad": -0.0476,
+          "front_box_xyxy_px": [
+            832.4882229553705,
+            685.2580891489984,
+            986.106596249725,
+            830.9407591410067
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            49.787,
+            4.181,
+            1.159
+          ],
+          "velocity_vehicle_mps": [
+            -0.007,
+            0.112,
+            0.148
+          ],
+          "size_hwl_m": [
+            1.65,
+            1.656,
+            4.143
+          ],
+          "yaw_rad": 0.0824,
+          "front_box_xyxy_px": [
+            754.3490493657442,
+            674.8283522669059,
+            830.0545280898483,
+            750.3242237147259
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 54,
+      "cvat_frame_index": 14,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.118,
+            4.17,
+            0.805
+          ],
+          "velocity_vehicle_mps": [
+            0.214,
+            0.232,
+            0.068
+          ],
+          "size_hwl_m": [
+            1.64,
+            1.678,
+            3.974
+          ],
+          "yaw_rad": -0.0087,
+          "front_box_xyxy_px": [
+            251.82312183881118,
+            720.8611331167438,
+            599.8208957946085,
+            971.0260396299958
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.745,
+            0.765,
+            1.067
+          ],
+          "velocity_vehicle_mps": [
+            -1.076,
+            0.093,
+            0.076
+          ],
+          "size_hwl_m": [
+            1.719,
+            1.686,
+            3.895
+          ],
+          "yaw_rad": -0.0192,
+          "front_box_xyxy_px": [
+            835.3864238736525,
+            683.9002848626004,
+            980.9821148977953,
+            829.2164319256049
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            49.546,
+            4.232,
+            1.246
+          ],
+          "velocity_vehicle_mps": [
+            -0.31,
+            0.162,
+            0.234
+          ],
+          "size_hwl_m": [
+            1.655,
+            1.658,
+            4.134
+          ],
+          "yaw_rad": 0.0282,
+          "front_box_xyxy_px": [
+            745.890715129912,
+            671.1471796900781,
+            829.7154437355216,
+            746.911375369209
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 55,
+      "cvat_frame_index": 15,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.175,
+            4.189,
+            0.814
+          ],
+          "velocity_vehicle_mps": [
+            0.247,
+            0.228,
+            0.07
+          ],
+          "size_hwl_m": [
+            1.644,
+            1.68,
+            3.98
+          ],
+          "yaw_rad": -0.0169,
+          "front_box_xyxy_px": [
+            249.68681835474968,
+            719.4582529037523,
+            600.650828817026,
+            969.0246269597087
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.747,
+            0.787,
+            1.094
+          ],
+          "velocity_vehicle_mps": [
+            -0.972,
+            0.105,
+            0.095
+          ],
+          "size_hwl_m": [
+            1.725,
+            1.682,
+            3.9
+          ],
+          "yaw_rad": -0.0509,
+          "front_box_xyxy_px": [
+            828.9185120864613,
+            681.7475152563849,
+            983.6412687301101,
+            827.2705630079703
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 0.8333,
+          "position_vehicle_m": [
+            49.509,
+            4.295,
+            1.179
+          ],
+          "velocity_vehicle_mps": [
+            -0.317,
+            0.219,
+            0.131
+          ],
+          "size_hwl_m": [
+            1.655,
+            1.658,
+            4.134
+          ],
+          "yaw_rad": 0.0282,
+          "front_box_xyxy_px": [
+            742.7965195728146,
+            673.8945872273234,
+            826.9415151429254,
+            749.9659815128256
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 56,
+      "cvat_frame_index": 16,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.219,
+            4.228,
+            0.759
+          ],
+          "velocity_vehicle_mps": [
+            0.266,
+            0.244,
+            0.011
+          ],
+          "size_hwl_m": [
+            1.646,
+            1.68,
+            3.973
+          ],
+          "yaw_rad": -0.0158,
+          "front_box_xyxy_px": [
+            246.69060645696743,
+            725.3613326253019,
+            596.866553139308,
+            975.9427596995179
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.552,
+            0.821,
+            1.089
+          ],
+          "velocity_vehicle_mps": [
+            -1.065,
+            0.127,
+            0.08
+          ],
+          "size_hwl_m": [
+            1.713,
+            1.674,
+            3.883
+          ],
+          "yaw_rad": -0.0197,
+          "front_box_xyxy_px": [
+            830.2057642682682,
+            682.6078127103175,
+            976.713211923121,
+            828.2572357715186
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 0.6667,
+          "position_vehicle_m": [
+            49.478,
+            4.313,
+            1.188
+          ],
+          "velocity_vehicle_mps": [
+            -0.317,
+            0.214,
+            0.126
+          ],
+          "size_hwl_m": [
+            1.655,
+            1.658,
+            4.134
+          ],
+          "yaw_rad": 0.0282,
+          "front_box_xyxy_px": [
+            741.8186044965719,
+            673.5091283059758,
+            826.0977748998089,
+            749.59764806828
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 57,
+      "cvat_frame_index": 17,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.328,
+            4.253,
+            0.741
+          ],
+          "velocity_vehicle_mps": [
+            0.344,
+            0.244,
+            -0.007
+          ],
+          "size_hwl_m": [
+            1.646,
+            1.681,
+            3.975
+          ],
+          "yaw_rad": -0.0182,
+          "front_box_xyxy_px": [
+            247.87514319602053,
+            726.9271957628991,
+            596.8258065251115,
+            976.2017754755794
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.509,
+            0.823,
+            1.011
+          ],
+          "velocity_vehicle_mps": [
+            -1.005,
+            0.117,
+            -0.001
+          ],
+          "size_hwl_m": [
+            1.714,
+            1.674,
+            3.892
+          ],
+          "yaw_rad": -0.0273,
+          "front_box_xyxy_px": [
+            828.515606511873,
+            688.1356616436184,
+            977.5871235533668,
+            835.0915144674663
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 0.8333,
+          "position_vehicle_m": [
+            49.596,
+            4.352,
+            1.077
+          ],
+          "velocity_vehicle_mps": [
+            -0.163,
+            0.232,
+            -0.006
+          ],
+          "size_hwl_m": [
+            1.669,
+            1.661,
+            4.14
+          ],
+          "yaw_rad": 0.1081,
+          "front_box_xyxy_px": [
+            747.9524507291146,
+            677.760297638541,
+            824.21109835603,
+            754.6985055744128
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 58,
+      "cvat_frame_index": 18,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.392,
+            4.272,
+            0.721
+          ],
+          "velocity_vehicle_mps": [
+            0.372,
+            0.239,
+            -0.025
+          ],
+          "size_hwl_m": [
+            1.642,
+            1.68,
+            3.973
+          ],
+          "yaw_rad": -0.019,
+          "front_box_xyxy_px": [
+            248.11709449934858,
+            729.1246841047547,
+            596.0415727493734,
+            977.3263800672935
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.449,
+            0.819,
+            0.959
+          ],
+          "velocity_vehicle_mps": [
+            -0.966,
+            0.102,
+            -0.051
+          ],
+          "size_hwl_m": [
+            1.713,
+            1.675,
+            3.896
+          ],
+          "yaw_rad": -0.0739,
+          "front_box_xyxy_px": [
+            821.2862209729408,
+            692.0746220146261,
+            984.2564245184642,
+            840.0001583341756
+          ]
+        },
+        {
+          "track_id": 5,
+          "state": "confirmed",
+          "score": 0.6667,
+          "position_vehicle_m": [
+            49.573,
+            4.419,
+            0.936
+          ],
+          "velocity_vehicle_mps": [
+            -0.171,
+            0.28,
+            -0.154
+          ],
+          "size_hwl_m": [
+            1.669,
+            1.661,
+            4.14
+          ],
+          "yaw_rad": 0.1081,
+          "front_box_xyxy_px": [
+            744.7053987786751,
+            683.5949753944448,
+            821.0169904750647,
+            761.0765680364711
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 59,
+      "cvat_frame_index": 19,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.513,
+            4.305,
+            0.71
+          ],
+          "velocity_vehicle_mps": [
+            0.452,
+            0.247,
+            -0.033
+          ],
+          "size_hwl_m": [
+            1.641,
+            1.684,
+            3.976
+          ],
+          "yaw_rad": -0.0048,
+          "front_box_xyxy_px": [
+            252.47591466308688,
+            729.9681810340693,
+            592.2910098963544,
+            976.1276079399246
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.334,
+            0.852,
+            0.979
+          ],
+          "velocity_vehicle_mps": [
+            -0.983,
+            0.124,
+            -0.027
+          ],
+          "size_hwl_m": [
+            1.708,
+            1.676,
+            3.895
+          ],
+          "yaw_rad": -0.0623,
+          "front_box_xyxy_px": [
+            819.5356205106062,
+            690.8354334367499,
+            980.3870780294427,
+            838.787902660684
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 60,
+      "cvat_frame_index": 20,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.558,
+            4.308,
+            0.73
+          ],
+          "velocity_vehicle_mps": [
+            0.451,
+            0.227,
+            -0.011
+          ],
+          "size_hwl_m": [
+            1.642,
+            1.685,
+            3.971
+          ],
+          "yaw_rad": -0.009,
+          "front_box_xyxy_px": [
+            253.3205197204593,
+            727.702711682374,
+            593.6855268169124,
+            972.6048826219203
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.266,
+            0.871,
+            1.002
+          ],
+          "velocity_vehicle_mps": [
+            -0.954,
+            0.13,
+            -0.002
+          ],
+          "size_hwl_m": [
+            1.702,
+            1.676,
+            3.895
+          ],
+          "yaw_rad": -0.009,
+          "front_box_xyxy_px": [
+            825.7781358540892,
+            689.3488081457615,
+            971.5418676368084,
+            836.8609050485314
+          ]
+        },
+        {
+          "track_id": 7,
+          "state": "initialized",
+          "score": 0.1667,
+          "position_vehicle_m": [
+            49.852,
+            4.383,
+            1.053
+          ],
+          "velocity_vehicle_mps": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size_hwl_m": [
+            1.694,
+            1.647,
+            4.143
+          ],
+          "yaw_rad": 0.1355,
+          "front_box_xyxy_px": [
+            745.7926505631251,
+            678.1716444810296,
+            825.8052388947824,
+            755.8147381581114
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 61,
+      "cvat_frame_index": 21,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.689,
+            4.326,
+            0.73
+          ],
+          "velocity_vehicle_mps": [
+            0.533,
+            0.222,
+            -0.01
+          ],
+          "size_hwl_m": [
+            1.643,
+            1.683,
+            3.964
+          ],
+          "yaw_rad": -0.0226,
+          "front_box_xyxy_px": [
+            254.28535024634152,
+            727.1561845126728,
+            596.8911186449791,
+            970.0834262724641
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.143,
+            0.84,
+            1.007
+          ],
+          "velocity_vehicle_mps": [
+            -0.98,
+            0.088,
+            0.002
+          ],
+          "size_hwl_m": [
+            1.694,
+            1.673,
+            3.88
+          ],
+          "yaw_rad": -0.0058,
+          "front_box_xyxy_px": [
+            828.426485422134,
+            689.4151043966169,
+            973.2593716728873,
+            836.9211796090525
+          ]
+        },
+        {
+          "track_id": 7,
+          "state": "tentative",
+          "score": 0.3333,
+          "position_vehicle_m": [
+            49.796,
+            4.341,
+            1.028
+          ],
+          "velocity_vehicle_mps": [
+            -0.553,
+            -0.416,
+            -0.113
+          ],
+          "size_hwl_m": [
+            1.684,
+            1.647,
+            4.133
+          ],
+          "yaw_rad": 0.1669,
+          "front_box_xyxy_px": [
+            744.6088147668438,
+            679.4312420644704,
+            830.3217192597021,
+            756.7987893122779
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 62,
+      "cvat_frame_index": 22,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.776,
+            4.331,
+            0.726
+          ],
+          "velocity_vehicle_mps": [
+            0.565,
+            0.206,
+            -0.013
+          ],
+          "size_hwl_m": [
+            1.646,
+            1.681,
+            3.959
+          ],
+          "yaw_rad": -0.0222,
+          "front_box_xyxy_px": [
+            258.0031547938878,
+            727.2129666685871,
+            597.8226364684956,
+            969.055407253036
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.103,
+            0.801,
+            1.012
+          ],
+          "velocity_vehicle_mps": [
+            -0.925,
+            0.042,
+            0.007
+          ],
+          "size_hwl_m": [
+            1.691,
+            1.67,
+            3.873
+          ],
+          "yaw_rad": -0.0151,
+          "front_box_xyxy_px": [
+            830.1754780098281,
+            689.1982909543591,
+            977.3168036274474,
+            836.6335234092949
+          ]
+        },
+        {
+          "track_id": 7,
+          "state": "tentative",
+          "score": 0.1667,
+          "position_vehicle_m": [
+            49.738,
+            4.341,
+            1.056
+          ],
+          "velocity_vehicle_mps": [
+            -0.566,
+            -0.206,
+            0.013
+          ],
+          "size_hwl_m": [
+            1.684,
+            1.647,
+            4.133
+          ],
+          "yaw_rad": 0.1669,
+          "front_box_xyxy_px": [
+            744.3520317049581,
+            678.2642038037536,
+            830.1502914614824,
+            755.6311299929152
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 63,
+      "cvat_frame_index": 23,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            18.889,
+            4.337,
+            0.708
+          ],
+          "velocity_vehicle_mps": [
+            0.619,
+            0.193,
+            -0.029
+          ],
+          "size_hwl_m": [
+            1.644,
+            1.68,
+            3.948
+          ],
+          "yaw_rad": -0.022,
+          "front_box_xyxy_px": [
+            262.78828176260026,
+            728.9655666233259,
+            599.0358418218984,
+            969.1340254913936
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            28.022,
+            0.797,
+            0.916
+          ],
+          "velocity_vehicle_mps": [
+            -0.915,
+            0.035,
+            -0.084
+          ],
+          "size_hwl_m": [
+            1.692,
+            1.67,
+            3.875
+          ],
+          "yaw_rad": -0.0297,
+          "front_box_xyxy_px": [
+            827.6031586291986,
+            696.2251628548322,
+            979.6400419050243,
+            845.43757463518
+          ]
+        },
+        {
+          "track_id": 7,
+          "state": "tentative",
+          "score": 0.3333,
+          "position_vehicle_m": [
+            49.793,
+            4.26,
+            0.942
+          ],
+          "velocity_vehicle_mps": [
+            -0.189,
+            -0.413,
+            -0.271
+          ],
+          "size_hwl_m": [
+            1.684,
+            1.644,
+            4.131
+          ],
+          "yaw_rad": 0.0797,
+          "front_box_xyxy_px": [
+            750.7376017102456,
+            683.0499282448253,
+            825.9211466941542,
+            760.7859096994749
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 64,
+      "cvat_frame_index": 24,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            19.008,
+            4.352,
+            0.721
+          ],
+          "velocity_vehicle_mps": [
+            0.673,
+            0.188,
+            -0.013
+          ],
+          "size_hwl_m": [
+            1.648,
+            1.68,
+            3.937
+          ],
+          "yaw_rad": -0.0209,
+          "front_box_xyxy_px": [
+            266.7909842253648,
+            726.9653182529638,
+            599.5395501801402,
+            965.142000174923
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            27.934,
+            0.794,
+            0.895
+          ],
+          "velocity_vehicle_mps": [
+            -0.912,
+            0.029,
+            -0.097
+          ],
+          "size_hwl_m": [
+            1.693,
+            1.674,
+            3.877
+          ],
+          "yaw_rad": -0.0248,
+          "front_box_xyxy_px": [
+            827.9109382673961,
+            697.8546376766685,
+            979.2646062248174,
+            847.9567169245463
+          ]
+        },
+        {
+          "track_id": 7,
+          "state": "tentative",
+          "score": 0.1667,
+          "position_vehicle_m": [
+            49.764,
+            4.32,
+            0.877
+          ],
+          "velocity_vehicle_mps": [
+            -0.215,
+            -0.148,
+            -0.35
+          ],
+          "size_hwl_m": [
+            1.684,
+            1.644,
+            4.131
+          ],
+          "yaw_rad": 0.0797,
+          "front_box_xyxy_px": [
+            747.8165628895385,
+            685.759978323641,
+            823.0558272600217,
+            763.7804643914658
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 65,
+      "cvat_frame_index": 25,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            19.103,
+            4.349,
+            0.748
+          ],
+          "velocity_vehicle_mps": [
+            0.699,
+            0.168,
+            0.013
+          ],
+          "size_hwl_m": [
+            1.647,
+            1.677,
+            3.928
+          ],
+          "yaw_rad": -0.0107,
+          "front_box_xyxy_px": [
+            274.1295503500181,
+            723.9582444637722,
+            599.4463799499226,
+            959.5738018939561
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            27.802,
+            0.802,
+            0.965
+          ],
+          "velocity_vehicle_mps": [
+            -0.95,
+            0.034,
+            -0.021
+          ],
+          "size_hwl_m": [
+            1.694,
+            1.673,
+            3.867
+          ],
+          "yaw_rad": -0.0289,
+          "front_box_xyxy_px": [
+            825.902643398978,
+            692.7351204466488,
+            979.2675254232158,
+            842.8662620216223
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 66,
+      "cvat_frame_index": 26,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            19.217,
+            4.36,
+            0.768
+          ],
+          "velocity_vehicle_mps": [
+            0.74,
+            0.162,
+            0.031
+          ],
+          "size_hwl_m": [
+            1.644,
+            1.676,
+            3.92
+          ],
+          "yaw_rad": -0.0122,
+          "front_box_xyxy_px": [
+            277.7713051707909,
+            721.6369291445563,
+            600.6036824135108,
+            954.5351067860408
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            27.73,
+            0.793,
+            1.018
+          ],
+          "velocity_vehicle_mps": [
+            -0.929,
+            0.022,
+            0.031
+          ],
+          "size_hwl_m": [
+            1.689,
+            1.671,
+            3.853
+          ],
+          "yaw_rad": 0.0204,
+          "front_box_xyxy_px": [
+            834.3376308431468,
+            689.0729750215339,
+            979.3654771880349,
+            838.3918661235672
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 67,
+      "cvat_frame_index": 27,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            19.324,
+            4.343,
+            0.793
+          ],
+          "velocity_vehicle_mps": [
+            0.772,
+            0.13,
+            0.052
+          ],
+          "size_hwl_m": [
+            1.638,
+            1.672,
+            3.904
+          ],
+          "yaw_rad": -0.0153,
+          "front_box_xyxy_px": [
+            284.68270638109436,
+            719.0930350905078,
+            604.6829133333138,
+            948.7765303030594
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            27.65,
+            0.8,
+            0.992
+          ],
+          "velocity_vehicle_mps": [
+            -0.916,
+            0.027,
+            0.004
+          ],
+          "size_hwl_m": [
+            1.679,
+            1.668,
+            3.836
+          ],
+          "yaw_rad": 0.015,
+          "front_box_xyxy_px": [
+            832.5053729420548,
+            691.4159788240613,
+            977.6895779421133,
+            840.7369249789108
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "8EFRSwEXBf9P-SzIDRzx0A",
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 68,
+      "cvat_frame_index": 28,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            19.542,
+            4.396,
+            0.748
+          ],
+          "velocity_vehicle_mps": [
+            0.906,
+            0.169,
+            0.004
+          ],
+          "size_hwl_m": [
+            1.631,
+            1.675,
+            3.91
+          ],
+          "yaw_rad": -0.0182,
+          "front_box_xyxy_px": [
+            286.13991244028625,
+            723.5544774303991,
+            603.8526983838512,
+            950.4774744911556
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            27.557,
+            0.788,
+            0.966
+          ],
+          "velocity_vehicle_mps": [
+            -0.917,
+            0.012,
+            -0.022
+          ],
+          "size_hwl_m": [
+            1.674,
+            1.67,
+            3.819
+          ],
+          "yaw_rad": -0.0566,
+          "front_box_xyxy_px": [
+            821.684660464259,
+            693.676683169126,
+            984.12422772446,
+            843.6653144020303
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "8EFRSwEXBf9P-SzIDRzx0A",
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 69,
+      "cvat_frame_index": 29,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            19.656,
+            4.363,
+            0.75
+          ],
+          "velocity_vehicle_mps": [
+            0.928,
+            0.121,
+            0.006
+          ],
+          "size_hwl_m": [
+            1.621,
+            1.676,
+            3.907
+          ],
+          "yaw_rad": -0.0323,
+          "front_box_xyxy_px": [
+            292.3586158646533,
+            723.6447515073727,
+            612.0412530934743,
+            947.7063381266646
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            27.512,
+            0.804,
+            0.97
+          ],
+          "velocity_vehicle_mps": [
+            -0.873,
+            0.027,
+            -0.015
+          ],
+          "size_hwl_m": [
+            1.67,
+            1.675,
+            3.808
+          ],
+          "yaw_rad": -0.0231,
+          "front_box_xyxy_px": [
+            825.04056588508,
+            693.5000359491398,
+            978.3323958081182,
+            843.2712393879136
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "8EFRSwEXBf9P-SzIDRzx0A",
+        "VJ3F-NiHmRQh0umylCVJmA",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    },
+    {
+      "frame": 70,
+      "cvat_frame_index": 30,
+      "tracks": [
+        {
+          "track_id": 0,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            19.793,
+            4.354,
+            0.756
+          ],
+          "velocity_vehicle_mps": [
+            0.97,
+            0.1,
+            0.011
+          ],
+          "size_hwl_m": [
+            1.613,
+            1.676,
+            3.903
+          ],
+          "yaw_rad": -0.0293,
+          "front_box_xyxy_px": [
+            299.92527972584367,
+            723.0350539834328,
+            614.9075031077089,
+            944.0689248337719
+          ]
+        },
+        {
+          "track_id": 1,
+          "state": "confirmed",
+          "score": 1.0,
+          "position_vehicle_m": [
+            27.496,
+            0.826,
+            0.973
+          ],
+          "velocity_vehicle_mps": [
+            -0.806,
+            0.045,
+            -0.011
+          ],
+          "size_hwl_m": [
+            1.672,
+            1.679,
+            3.801
+          ],
+          "yaw_rad": -0.0107,
+          "front_box_xyxy_px": [
+            824.8991019086878,
+            693.1626690845094,
+            975.1329320745715,
+            843.0999952702734
+          ]
+        }
+      ],
+      "gt_vehicle_ids": [
+        "8EFRSwEXBf9P-SzIDRzx0A",
+        "jT38g8qP7TxoFXreShjseQ",
+        "mV--0dAvjt4OyGlzlXvfPw"
+      ]
+    }
+  ]
+}
